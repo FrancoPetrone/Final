@@ -1,0 +1,297 @@
+body {
+	background-color: black;
+	background-image: url('../imgs/General/background.jpg');
+	background-repeat: repeat;
+	background-position: center;
+}
+
+/*------------------------ Navbar Bootstrap Modificada ------------------------*/
+
+header > .navbar-default {
+	background-image: none;
+	background-color: #005f84;
+	border: 1px solid black;
+	border-bottom: 2px solid #00739e;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: #8fcae4;
+	border-color: #bcf8ff;
+}
+
+.navbar-default .navbar-toggle:link, .navbar-default .navbar-toggle:hover {
+	background-color: #8fcae4;
+}
+
+.navbar-default .navbar-toggle:active {
+	background-color: #8fcae4;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #8fcae4;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+	font-weight: bold;
+	color: #7bfff4;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand:hover {
+	color: #7bfff4;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand:visited {
+	color: #7bfff4;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default {
+	color: #bcf8ff;
+}
+
+.navbar-default .navbar-nav > li > a:link, .navbar-default {
+	color: #bcf8ff;
+}
+
+.navbar-default .navbar-nav > li > a:visited, .navbar-default {
+	color: #bcf8ff;
+}
+
+.navbar-default .navbar-nav > li > a:active, .navbar-default {
+	color: #bcf8ff;
+}
+
+.navbar-nav > li > .dropdown-menu {
+	background-color: #005067;
+}
+
+.dropdown-menu > li > a {
+	font-weight: bold;
+}
+
+.navbar-default .navbar-nav > open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+	color: #bcf8ff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	color: #bcf8ff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+	background-color: #006e82;
+	color: #bcf8ff;
+}
+
+.dropdown-menu > li > a:hover {
+	background-image: none;
+	background-color: #a8d5d8;
+}
+
+.dropdown-menu .divider {
+	background-color: black;
+}
+
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .open > a {
+	color: #00fff5;
+}
+
+.navbar-default .navbar-nav > .active > a:link, .navbar-default .navbar-nav > .open > a {
+	background-image: linear-gradient(to bottom,#0f3e5a 0,#0f3e5a 100%);
+	color: #00fff5;
+}
+
+.navbar-default .navbar-nav > .active > a:visited, .navbar-default .navbar-nav > .open > a {
+	color: #00fff5;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	background-color: #006e82;
+	color: #bcf8ff;
+}
+
+.badge {
+	background-color: #73d2c3;
+	color: black;
+}
+
+/*------------------------ panel de Administracion ------------------------*/
+.contenedor-panel, .contenedor-panel-2 {
+	margin-top: 15px;
+	margin-bottom: 20px;
+	border: 2px solid #44b356;
+    background-color: #0a2f1d;
+	padding-bottom: 10px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.contenedor-panel > div > .titulo, .contenedor-panel-2 > div > .titulo {
+	margin-top: 10px;
+	padding-top: 5px;
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	font-size: 30px;
+	color: #4bf962;
+    background-color: #285630;
+    border: 1px solid #106f1f;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 100px 100px 10px 10px;
+	text-shadow: 
+		0 -1px 10px black, 
+		0 0px  15px black,
+		0 1px  10px black;
+}
+
+.forms > div > label {
+	font-family: arial, cursive;
+	text-align: center;
+	font-size: 15px;
+	color: #85ce38;
+}
+
+input, input[placeholder] {
+    text-align:center;
+}
+
+/*------------------------ ABM Productos ------------------------*/
+
+.contenedor-panel > div > .new {
+	text-align: center;
+	font-size: 15px;
+	margin-bottom: 15px; 
+}
+
+.contenedor-panel > div > div > div > .categoria {
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	font-size: 20px;
+	color: blue;
+}
+
+.contenedor-panel > div > div > div > .sub-titulo {
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+}
+
+.thumbnail > .caption {
+	text-align: center;
+}
+
+.thumbnail > .caption > .precio-producto {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	color: #006331;
+}
+
+.contenedor-panel > div > .thumbnail, .contenedor-panel-2 > div > .thumbnail {
+	background-color: #cdf9cd;
+    border: 1px solid #0a8c00;
+}
+
+.contenedor-panel > div > .thumbnail:hover {
+	background-color: #88ca86;
+    border: 1px solid #0d750f;
+}
+
+.contenedor-panel > .sin-productos {
+	font-family: 'Oswald', cursive;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	color: #5a99ea;
+	text-shadow: 
+		0 -1px 10px black, 
+		0 0px  15px black,
+		0 1px  10px black;
+}
+
+/*------------------------ ABM Usuarios ------------------------*/
+
+.contenedor-panel-2 > div > div > div > .nick {
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	font-size: 20px;
+	color: #00009c;
+}
+
+.contenedor-panel-2 > div > div > div > .info {
+	font-family: 'Baloo', cursive;
+	text-align: center;
+	font-size: 14px;
+	color: black;
+}
+
+.contenedor-panel-2 > div > .thumbnail:hover {
+	background-color: #d8e2d7;
+    border: 1px solid #0d750f;
+}
+
+.contenedor-panel-2 > .error {
+	font-family: 'Oswald', cursive;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	color: red;
+	text-shadow: 
+		0 -1px 10px black, 
+		0 0px  15px black,
+		0 1px  10px black;
+}
+
+/*------------------------ Footer ------------------------*/
+footer {
+	text-align: center;
+
+	background-image: url('../imgs/General/footer.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	padding-top: 200px;
+	padding-bottom: 50px;
+   	bottom: 0px;
+   	width: 100%;
+}
+
+footer > .copyright {
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	color: white;
+	text-shadow: 
+		0 -1px 10px black, 
+		0 0px  15px black,
+		0 1px  10px black;
+}
+
+footer > .alumno {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	color: white;
+	text-shadow: 
+		0 -1px 10px black, 
+		0 0px  15px black,
+		0 1px  10px black;
+}
+
+footer > .ir-arriba {
+	color: black;
+	background-color: #0c90c3;
+	padding: 5px 5px 5px 5px;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+
+.ir-arriba:hover {
+	color: #00308c;
+	background-color: #6094d2;
+}
